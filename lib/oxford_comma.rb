@@ -1,3 +1,4 @@
+pry.binding
 def oxford_comma(array)
   i = 0
   if array.length == 1 
