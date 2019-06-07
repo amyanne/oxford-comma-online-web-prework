@@ -8,7 +8,7 @@ def oxford_comma(array)
 else 
  string = array.join(", ")
  word = array.last
- string = string.delete(word)
+ string = string.chomp(word)
 binding.pry
 
 end
