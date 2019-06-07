@@ -5,7 +5,10 @@ def oxford_comma(array)
   array.join(" and ")
 else 
  string = array.join(", ")
-  string.split.last 
+  last = string.split.last 
+  string.delete.last
+  string << "and"
+  string.push(last)
 end
 
 end
