@@ -1,4 +1,4 @@
-pry.binding
+require 'pry'
 def oxford_comma(array)
   i = 0
   if array.length == 1 
@@ -9,7 +9,7 @@ else
  string = array.join(", ")
  word = array.last
  string.chomp
-
+binding.pry
 
 end
 
