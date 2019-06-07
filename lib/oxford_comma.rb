@@ -9,7 +9,7 @@ else
  array.join(", ")
  i += 1
 end
-array.join(", and ")
+
 end
 
 end
