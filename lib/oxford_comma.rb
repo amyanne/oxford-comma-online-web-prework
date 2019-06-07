@@ -9,7 +9,8 @@ else
  string = array.join(", ")
  word = array.last
  string = string.chomp(word)
-binding.pry
+ string << ", and"
+ string << word
 
 end
 
